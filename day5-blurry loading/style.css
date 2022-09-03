@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.bg {
+    background: url('https://img.rawpixel.com/private/static/images/website/2022-05/p-433-lukestackpoole-cosy-hut-card-a-g-job580.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f8f78988af991aca73d2bec127b693a1')no-repeat center center/cover;
+    position: absolute;
+    top: 40;
+    left: 100;
+    width: 80vw;
+    height: 80vh;
+    z-index: -1;
+    filter: blur(0px);
+}
+.loading-text{
+    font-size: 50px;
+    color: #fff;
+}
